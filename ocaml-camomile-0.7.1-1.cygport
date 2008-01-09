@@ -1,0 +1,23 @@
+ORIG_PN="camomile"
+
+inherit ocaml
+
+DESCRIPTION="OCaml Unicode character library"
+HOMEPAGE="http://camomile.sourceforge.net/"
+SRC_URI="mirror://sourceforge/camomile/${ORIG_PN}-${PV}.tar.bz2"
+
+DIFF_EXCLUDES="main.ml"
+
+src_compile() {
+	lndirs
+	cd ${B}
+#	rm -fr charmaps/* ; cp ${S}/charmaps/* charmaps/
+	cygconf
+	cygmake -j1
+}
+
+src_install() {
+	cd ${B}
+	dodir /usr/bin
+	ocaml_install BINDIR="${D}/usr/bin" DATADIR="${D}/usr/share"
+}
