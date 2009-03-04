@@ -7,16 +7,16 @@ locale-sensitive case mappings, and more. The library is currently
 designed for Unicode Standard 3.2.
 
 Runtime requirements:
-  ocaml-3.10.0-1
+  ocaml-3.10.2-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.25-7
-  binutils-20060817-1
-  cygport-0.3.8-1
+  cygwin-1.5.25-15
+  binutils-20080624-2
+  cygport-0.4.3-1
   gcc-core-3.4.4-3
-  make-3.81-1
-  ocaml-findlib-1.2.1-1
+  make-3.81-2
+  ocaml-findlib-1.2.2-1
 
 Canonical website:
   http://camomile.sourceforge.net/
@@ -980,6 +980,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.7.1-2 -----
+Rebuilt.
 
 ----- version 0.7.1-1 -----
 Initial release for Cygwin.
