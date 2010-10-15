@@ -6,7 +6,7 @@ DESCRIPTION="OCaml Unicode character library"
 HOMEPAGE="http://camomile.sourceforge.net/"
 SRC_URI="mirror://sourceforge/camomile/${ORIG_PN}-${PV}.tar.bz2"
 
-DIFF_EXCLUDES="main.ml"
+DIFF_EXCLUDES="main.ml .depend"
 
 src_compile() {
 	lndirs
