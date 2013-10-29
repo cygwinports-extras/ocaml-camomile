@@ -1,8 +1,0 @@
-category: OCaml
-requires: ocaml-base
-sdesc: "OCaml Unicode character library"
-ldesc: "Camomile is a comprehensive Unicode library for the Objective 
-Caml language. Camomile provides Unicode character type, UTF-8, UTF-16, 
-UTF-32 strings, conversion to/from about 200 encodings, collation and 
-locale-sensitive case mappings, and more. The library is currently 
-designed for Unicode Standard 3.2."
