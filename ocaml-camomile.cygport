@@ -1,17 +1,16 @@
 inherit ocaml
 
 NAME="ocaml-camomile"
-VERSION=0.8.3
+VERSION=0.8.5
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="OCaml Unicode character library"
 DESCRIPTION="Camomile is a comprehensive Unicode library for the Objective
 Caml language. Camomile provides Unicode character type, UTF-8, UTF-16, UTF-32
 strings, conversion to/from about 200 encodings, collation and locale-sensitive
-case mappings, and more. The library is currently designed for Unicode Standard
-3.2."
-HOMEPAGE="http://camomile.sourceforge.net/"
-SRC_URI="mirror://sourceforge/camomile/camomile-${VERSION}.tar.bz2"
+case mappings, and more."
+HOMEPAGE="https://github.com/yoriyuki/Camomile"
+SRC_URI="https://github.com/yoriyuki/Camomile/releases/download/rel-${VERSION}/camomile-${VERSION}.tar.bz2"
 SRC_DIR="camomile-${VERSION}"
 
 DIFF_EXCLUDES="main.ml .depend"
