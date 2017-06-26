@@ -2,7 +2,7 @@ inherit ocaml
 
 NAME="ocaml-camomile"
 VERSION=0.8.5
-RELEASE=1
+RELEASE=2
 CATEGORY="Libs"
 SUMMARY="OCaml Unicode character library"
 DESCRIPTION="Camomile is a comprehensive Unicode library for the Objective
